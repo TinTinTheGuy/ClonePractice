@@ -1,0 +1,455 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+    color: black;
+
+}
+
+.Header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;  /* Z-index => Override the image on top*/
+    
+}
+
+.NavBar{
+    text-transform: capitalize;
+}
+.NavBar li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 0 24px;
+    
+}
+
+
+.NavBar li :hover{
+    background-color: grey;
+}
+
+
+.NavBar li{
+    display: inline-block;    
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 46px;
+    
+}
+
+.NavBar .Login {
+    float: right;
+    padding: 0 24px;
+    color: black;
+}
+
+.NavBar .Login :hover{
+    background-color: red;
+
+    }
+
+.Cover{
+    background-image: url(assets/pixlr-image-generator-0d679fe8-b307-4ed0-b238-1c22225d13f7.png);
+    margin-top: 46px;
+    padding-top: 50%;
+    position: relative;
+}
+
+
+.Cover .CoverText{
+    position: absolute;  
+    font-weight: bold;  
+    color: gray;
+    text-align: center;
+    bottom: 0;
+    padding-bottom: 47px;
+    width: 100%;
+
+
+
+}
+
+.content .About{
+    background-color: white;
+
+}
+
+.content .About .TheBand h1{
+    font-display: capitalize;
+    color: black;
+
+}
+
+.content .About .TheBand h5{
+    font-style: italic;
+    font-weight: 200;
+    color: black;
+}
+
+.content  {
+    color: black
+}
+
+.content .TheBand {
+    padding-top: 64px ;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.content .TheBand h5{
+    color: white;
+    text-align: center;
+    margin: 15px;
+
+}
+
+.content .TheBand h1 {
+    letter-spacing: 4px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+.content .TheBand p{
+    color: black;
+    line-height: 1.4 ;
+}
+
+.TheBand .TeamMem .Team {
+    padding: 20px;
+}
+.TheBand .Team .imageBand{
+    width: 200px;
+    float: left;
+    margin-bottom: 16px;
+    border-radius: 4px;
+
+}
+.TeamMem{
+    padding: 32px;
+}
+.Team {
+    display: inline-block;
+}
+
+.Team p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.content .TourDate {
+    padding: 64px;
+    background-color: black ;
+    color: white;
+}
+
+.content .TourDate .TheBand{
+    padding-top: 0px;
+}
+
+.List{
+    background-color: white;
+    list-style: none;
+    color: black;
+    display: block;
+    border-color: black;
+}
+
+.List li{
+    padding: 14px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+
+.Image-TourDate{
+    padding: 32px 0px;
+    display: inline-block;
+    background-color: black;
+    margin: 32px -8px 48px;
+}
+.ImageSize {
+    margin-bottom:16px;
+    width: 33.33%;
+    float: left;
+    padding: 0 8px;
+
+    
+    
+}
+
+.ImageSize img {
+    width: 100%;
+
+}
+.TourDateText{
+    background-color: white;
+    font-size: 15px;
+
+
+}
+.ImageSize h2, .ImageSize p, .ImageSize h3{
+    color: black;
+    text-align: left;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.Text {
+    padding: 0.15px 16px;
+}
+.Text h2 {
+    font-size: 20px;
+}
+
+.Text h3 {
+    font-weight: lighter;
+    opacity: 0.5;
+}
+.Buy-Button {
+    background-color: black;
+    margin-bottom: 16px ;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 15px ;
+    
+}
+
+.Contact {
+    background-color: white;
+    margin: 0px 77.5px;
+    padding: 0px 16px 64px 16px;
+}
+
+.Contact h2 {
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin: 10px 0px;
+    font-size: 30px;
+}
+
+.Contact h2, .Contact p {  
+    text-align: center;
+    margin: 16px;
+}
+
+.Contact p {
+    font-style: italic;
+    font-weight: 200;
+    opacity: 0.5;
+}
+
+
+
+
+.Contact-Text {
+    margin-bottom: 16px;
+    float: left;
+
+}
+
+.Contact-Form {
+    float: right;
+    margin-bottom: 16px;
+    width: 50%;
+}
+
+.Contact-Info{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+
+.Form{
+    display: block;
+    line-height: 1.5;
+}
+.Form-Name{
+    margin: 0px -16px 8px -16px;
+    padding: 0px 8px;
+}
+
+.Form input{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Name-Form{
+    width: 50%;
+    padding: 0 8px;
+    display: block;
+    float: left;
+    font-size: 16px;
+
+}
+
+.Email-Form{
+    width: 50%;
+    padding: 0 8px;
+    display: block;
+    float: left;
+}
+
+.Subject{
+    padding : 8px;
+}
+
+.Submit-Button{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+ .Information {
+    margin: 0 159px;
+    padding: 64px 16px;
+ }
+
+.Footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+    bottom:0;
+    line-height: 30px;
+    padding: 64px 16px;
+    
+
+}
+
+
+.Modal {
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 100px;
+    display: none;
+}
+
+.Modal .open {
+    display: flex;
+}
+
+.Modal-content {
+    margin: 0px 103px;
+  
+
+}
+
+.Modal-content header {
+    background-color: #009688 ;
+    padding: 32px 16px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 8px;
+
+}
+
+.Modal-content h2 {
+    color: white;
+    margin: 10px 0px;
+}
+
+.Modal-content span {
+    color: white;
+    float: right;
+    font-size: 14px
+}
+
+.Modal-content p {
+    color: black;
+    margin: 15px 0px;
+
+}
+
+.Modal-content input {
+    padding: 8px;
+    width: 100%;
+}
+
+.Modal-Body {
+    background-color: white;
+    padding: 0.15px 16px;
+
+}
+
+.Modal-content .Modal-Body .Buy-Button {
+    color: white;
+    background-color: #009688;
+    margin: 16px 0px;
+    padding: 16px;
+    width: 100%;  
+    font-size: 18px;  
+}
+
+.Modal-content .Modal-Body .Cancel-Button {
+    color: white;
+    background-color: red;
+    margin: 16px 0px;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+ .Need  {
+    margin: 16px 0px;
+    padding: 8px 16px;
+    display: inline-block;
+
+}
+
+
+
+
+.Footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+    bottom:0;
+    line-height: 30px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-size: 24px;
+    width: 100%;
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
